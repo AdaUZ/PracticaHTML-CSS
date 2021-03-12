@@ -1,0 +1,126 @@
+body{
+    background: gray;
+}
+
+div{
+    margin-right: 50px;
+    margin-left: 50px;
+    background: silver;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    background: cornflowerblue;
+    display: inline;
+    border: 2px solid black;
+
+}
+
+.caja1{
+    width: 200px;
+    height: 40px;
+    background: cornflowerblue;
+    float: left;
+    margin-right: 50px;
+    display: inline;
+    border: 2px solid black;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.caja2{
+    width: 200px;
+    height: 40px;
+    background: cornflowerblue;
+    float: right;
+    margin-right: 50px;
+    display: inline;
+    border: 2px solid black;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.subtitulo2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.parrafo1{
+    text-align: center;
+    border: 2px solid black;
+    background: gray;
+    font-family: sans-serif
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.parrafo1:hover{
+    text-align: center;
+    border: 2px solid gray;
+    background: white;
+    font-family: sans-serif
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    transition: width 1s, height 1s, transform 1s;
+    transform : scale(1.17);
+}
+
+.parrafo2{
+    text-align: center;
+    border: 2px solid black;
+    background: gray;
+    font-family: sans-serif
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.parrafo2:hover{
+    text-align: center;
+    border: 2px solid gray;
+    background: white;
+    font-family: sans-serif
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    transition: width 1s, height 1s, transform 1s; /*transicion para efecto de lupa*/
+    transform : scale(1.17); /*escala o zoom de la lupa*/
+}
+
+.comentario1{
+    padding-left: 50px;
+    text-align: left;
+}
+
+.comentario2{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.imagen{
+    display: inline;
+}
+
+div .link{
+    font-family: sans-serif;
+    margin: 0;
+}
